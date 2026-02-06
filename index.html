@@ -215,6 +215,9 @@
                     <div class="skill-tags">
                         <span class="skill-tag primary">Java 17</span>
                         <span class="skill-tag primary">Spring Boot 3</span>
+                        <span class="skill-tag primary">Python</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Pydantic</span>
                         <span class="skill-tag">Spring Security</span>
                         <span class="skill-tag">Node.js</span>
                         <span class="skill-tag">REST APIs</span>
@@ -413,25 +416,27 @@
                         <span class="project-label">Featured Project</span>
                         <h3>AI Adverse Event Detection</h3>
                         <p class="project-description">
-                            AI-powered decision support system that analyzes reported symptoms to detect potential 
-                            adverse events with <strong>92% accuracy</strong>. Features batch processing, multi-LLM support (OpenAI/Claude), 
-                            rule-based safety screening, and comprehensive audit logging for compliance.
+                            <strong>Python/FastAPI</strong> REST API that analyzes reported symptoms to detect potential adverse events with 
+                            <strong>92% accuracy</strong>. Clinical decision engine with rule-based safety screening (e.g. low O2, hypotension), 
+                            multi-LLM support (OpenAI GPT-4 / Anthropic Claude), Pydantic validation, JWT/RBAC, and JSONL audit logging. 
+                            Deployed on AWS via Terraform (EC2, S3, VPC, CloudWatch).
                         </p>
                         <div class="project-features">
-                            <span><i class="fas fa-check"></i> Batch Processing (10 patients/call)</span>
-                            <span><i class="fas fa-check"></i> Multi-LLM Support (OpenAI/Claude)</span>
+                            <span><i class="fas fa-check"></i> Batch Processing (1–10 patients/request)</span>
+                            <span><i class="fas fa-check"></i> Multi-LLM (OpenAI / Anthropic / Mock)</span>
                             <span><i class="fas fa-check"></i> Rule-based Safety Screening</span>
-                            <span><i class="fas fa-check"></i> HIPAA Compliant</span>
-                            <span><i class="fas fa-check"></i> AWS Deployment Ready</span>
+                            <span><i class="fas fa-check"></i> JWT Auth & RBAC</span>
+                            <span><i class="fas fa-check"></i> Terraform IaC (AWS)</span>
                         </div>
                         <div class="project-tech">
-                            <span>Java 17</span>
-                            <span>Spring Boot</span>
-                            <span>React</span>
-                            <span>PostgreSQL</span>
-                            <span>OpenAI API</span>
-                            <span>Docker</span>
+                            <span>Python 3.10+</span>
+                            <span>FastAPI</span>
+                            <span>Pydantic</span>
+                            <span>OpenAI</span>
+                            <span>Anthropic</span>
                             <span>Terraform</span>
+                            <span>AWS</span>
+                            <span>Pytest</span>
                         </div>
                     </div>
                 </article>

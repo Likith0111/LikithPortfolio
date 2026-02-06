@@ -344,14 +344,14 @@
             <div class="project-item">
                 <div class="project-header">
                     <span class="project-title">AI Adverse Event Detection System</span>
-                    <span class="project-tech">Java 17, Spring Boot, React, PostgreSQL, OpenAI/Claude API, Docker, AWS</span>
+                    <span class="project-tech">Python 3.10+, FastAPI, Pydantic, OpenAI, Anthropic, JWT/RBAC, Terraform, AWS (EC2, S3, CloudWatch), Pytest</span>
                 </div>
                 <ul class="project-list">
-                    <li>Engineered an AI-powered decision support system that analyzes reported symptoms to detect adverse events with 92% accuracy</li>
-                    <li>Implemented batch processing (10 patients/API call), multi-LLM support (OpenAI/Claude), and rule-based safety screening</li>
-                    <li>Built production-ready architecture with JWT auth, RBAC, comprehensive audit logging, and Terraform IaC for AWS deployment</li>
-                    <li>Designed for compliance with HIPAA and audit requirements; supports high-throughput batch workflows</li>
-                    <li>Integrated multiple LLM providers with configurable fallback and cost-effective request batching</li>
+                    <li>Built a <span class="highlight">Python/FastAPI</span> REST API with clinical decision engine: rule-based safety screening (e.g. low O2, hypotension) and LLM analysis for adverse event detection (92% accuracy)</li>
+                    <li>Implemented batch processing (1–10 patients/request), multi-LLM support (OpenAI GPT-4 / Anthropic Claude / Mock), and Pydantic request/response validation</li>
+                    <li>Designed audit logging (JSONL) and JWT role-based access (Admin, Clinician, Nurse, Analyst) for compliance</li>
+                    <li>Deployed on AWS via <span class="highlight">Terraform</span> (VPC, EC2, S3, IAM, CloudWatch, SSM for API keys); ~1,500 LOC app + ~400 LOC IaC</li>
+                    <li>Test suite with Pytest; async HTTP (httpx/aiohttp), retry logic (tenacity), Uvicorn/Gunicorn for production</li>
                 </ul>
             </div>
 
@@ -380,7 +380,7 @@
                 </div>
                 <div class="skill-category">
                     <span class="skill-label">Backend:</span>
-                    <span class="skill-items">Spring Boot 3, Spring Security, Node.js, REST APIs, GraphQL</span>
+                    <span class="skill-items">Spring Boot 3, FastAPI, Pydantic, Spring Security, Node.js, REST APIs, GraphQL</span>
                 </div>
                 <div class="skill-category">
                     <span class="skill-label">Frontend:</span>
