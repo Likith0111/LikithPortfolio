@@ -14,7 +14,7 @@
 
         @page {
             size: letter;
-            margin: 0.4in 0.5in;
+            margin: 0.35in 0.45in;
         }
 
         body {
@@ -28,7 +28,7 @@
         }
 
         .container {
-            max-width: 7.5in;
+            max-width: 7.6in;
             margin: 0 auto;
             padding: 0;
         }
@@ -36,9 +36,9 @@
         /* ── Header ── */
         .header {
             text-align: center;
-            padding-bottom: 8px;
+            padding-bottom: 7px;
             border-bottom: 2px solid #000;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .name {
@@ -46,14 +46,14 @@
             font-weight: 700;
             color: #000;
             letter-spacing: 3px;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
 
         .contact-info {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 4px 8px;
+            gap: 3px 7px;
             font-size: 9.5px;
             color: #000;
         }
@@ -71,12 +71,12 @@
         .contact-item + .contact-item::before {
             content: "|";
             color: #555;
-            margin-right: 6px;
+            margin-right: 5px;
         }
 
         /* ── Sections ── */
         .section {
-            margin-top: 8px;
+            margin-top: 7px;
         }
 
         .section-title {
@@ -85,16 +85,16 @@
             color: #000;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            padding-bottom: 3px;
+            padding-bottom: 2px;
             border-bottom: 1.5px solid #000;
-            margin-bottom: 6px;
+            margin-bottom: 5px;
         }
 
         /* ── Summary ── */
         .summary {
             font-size: 9.5px;
             color: #000;
-            line-height: 1.45;
+            line-height: 1.4;
             text-align: justify;
         }
 
@@ -104,14 +104,14 @@
 
         /* ── Experience ── */
         .exp-item {
-            margin-bottom: 7px;
+            margin-bottom: 5px;
         }
 
         .exp-header {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
 
         .exp-role {
@@ -139,7 +139,7 @@
         .bullet-list li {
             position: relative;
             padding-left: 12px;
-            margin-bottom: 2px;
+            margin-bottom: 1.5px;
             font-size: 9.5px;
             color: #000;
             line-height: 1.35;
@@ -157,11 +157,11 @@
 
         /* ── Projects ── */
         .proj-item {
-            margin-bottom: 6px;
+            margin-bottom: 5px;
         }
 
         .proj-header {
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
 
         .proj-title {
@@ -194,7 +194,7 @@
         }
 
         .skills-table td {
-            padding: 3px 10px;
+            padding: 2.5px 10px;
             vertical-align: middle;
             color: #000;
         }
@@ -215,7 +215,7 @@
         .bottom-row {
             display: flex;
             gap: 30px;
-            margin-top: 8px;
+            margin-top: 7px;
         }
 
         .bottom-row .section {
@@ -288,7 +288,7 @@
         <section class="section">
             <h2 class="section-title">Professional Summary</h2>
             <p class="summary">
-                Results-driven <span class="highlight">Full Stack Developer</span> with <span class="highlight">4+ years</span> of experience architecting and delivering scalable, enterprise-grade web applications. Expert in <span class="highlight">Java (Spring Boot)</span> and <span class="highlight">React</span> ecosystems, with proven success in building high-throughput systems processing <span class="highlight">100K+ daily requests</span>. Strong track record of optimizing system performance, reducing API response times by <span class="highlight">45%</span>, and driving <span class="highlight">15% cost savings</span> through cloud infrastructure improvements. Skilled in <span class="highlight">AWS</span>, microservices architecture, CI/CD automation, and agile development methodologies.
+                Results-driven <span class="highlight">Full Stack Developer</span> with <span class="highlight">4+ years</span> of experience architecting and delivering scalable, enterprise-grade web applications. Expert in <span class="highlight">Java (Spring Boot)</span>, <span class="highlight">Python</span>, and <span class="highlight">React</span> ecosystems, with proven success in building high-throughput systems processing <span class="highlight">100K+ daily requests</span>. Strong track record of optimizing API response times by <span class="highlight">45%</span> and driving <span class="highlight">15% cost savings</span> through <span class="highlight">AWS</span> cloud infrastructure improvements. Skilled in serverless architecture, microservices, CI/CD automation, and agile methodologies.
             </p>
         </section>
 
@@ -306,7 +306,7 @@
                     <li>Built and deployed <span class="highlight">AWS-hosted microservices</span> on ECS and Lambda, leveraging S3 for storage and RDS for managed databases, reducing infrastructure costs by 15%</li>
                     <li>Designed and optimized RESTful APIs with <span class="highlight">PostgreSQL</span> and <span class="highlight">Redis caching</span>, cutting average API response times by 45% for core business services</li>
                     <li>Implemented end-to-end <span class="highlight">CI/CD pipelines</span> using Docker, Jenkins, and AWS CodeDeploy, reducing production deployment cycles from hours to minutes</li>
-                    <li>Enforced HIPAA-compliant data handling through Spring Security, JWT-based authentication, and comprehensive audit logging across all services</li>
+                    <li>Enforced HIPAA-compliant data handling through Spring Security, JWT-based authentication, and comprehensive audit logging</li>
                 </ul>
             </div>
 
@@ -318,8 +318,7 @@
                 <ul class="bullet-list">
                     <li>Developed a <span class="highlight">student portal application</span> using Java and Spring Boot for course registration, grade tracking, and academic record management</li>
                     <li>Built a <span class="highlight">data management system</span> with Python and SQL to automate student grading workflows, reducing manual processing time by 50%</li>
-                    <li>Designed and maintained database schemas in PostgreSQL for storing student records, enrollment data, and course materials</li>
-                    <li>Conducted code reviews and mentored students on Java, database design, and software engineering best practices</li>
+                    <li>Designed and maintained PostgreSQL database schemas for student records, enrollment data, and course materials</li>
                 </ul>
             </div>
 
@@ -330,9 +329,8 @@
                 </div>
                 <ul class="bullet-list">
                     <li>Built enterprise web applications using <span class="highlight">Java, Spring Boot, and React</span>, developing end-to-end features from REST APIs to responsive front-end interfaces</li>
-                    <li>Designed and implemented <span class="highlight">Spring Boot microservices</span> with layered architecture (Controller, Service, Repository), improving code maintainability and testability</li>
+                    <li>Designed <span class="highlight">Spring Boot microservices</span> with layered architecture (Controller, Service, Repository), improving code maintainability and testability</li>
                     <li>Optimized database queries in <span class="highlight">PostgreSQL and MongoDB</span> through indexing and query refactoring, reducing execution time by 35%</li>
-                    <li>Participated in agile sprints, performed code reviews, and delivered features on schedule across multiple client projects</li>
                 </ul>
             </div>
         </section>
@@ -343,14 +341,25 @@
 
             <div class="proj-item">
                 <div class="proj-header">
+                    <span class="proj-title">Serverless Expense Approval Workflow</span>
+                    <span class="proj-tech">TypeScript, AWS Lambda, Step Functions, API Gateway, DynamoDB, Terraform</span>
+                </div>
+                <ul class="bullet-list">
+                    <li>Designed a <span class="highlight">serverless expense approval pipeline</span> using AWS Lambda, Step Functions, API Gateway, and DynamoDB that validates, screens, and auto-approves employee expense claims</li>
+                    <li>Built parallel execution branches in Step Functions for policy enforcement and rule-based fraud detection with a risk scoring engine (0–100 scale)</li>
+                    <li>Provisioned all AWS infrastructure using <span class="highlight">Terraform</span> with least-privilege IAM policies; system operates entirely within AWS Free Tier limits</li>
+                </ul>
+            </div>
+
+            <div class="proj-item">
+                <div class="proj-header">
                     <span class="proj-title">AI Adverse Event Detection System</span>
                     <span class="proj-tech">Python 3.10+, FastAPI, Pydantic, OpenAI, Anthropic, JWT/RBAC, Terraform, AWS, Pytest</span>
                 </div>
                 <ul class="bullet-list">
-                    <li>Engineered a <span class="highlight">Python/FastAPI</span> REST API with a clinical decision engine combining rule-based safety screening and LLM-powered analysis achieving 92% detection accuracy</li>
-                    <li>Implemented batch processing (1–10 patients/request), multi-LLM support (OpenAI GPT-4, Anthropic Claude), and Pydantic request validation</li>
-                    <li>Designed JWT role-based access control (Admin, Clinician, Nurse, Analyst) with JSONL audit logging for HIPAA compliance</li>
-                    <li>Provisioned full AWS infrastructure using <span class="highlight">Terraform</span> (VPC, EC2, S3, IAM, CloudWatch); ~1,500 LOC application + ~400 LOC IaC</li>
+                    <li>Engineered a <span class="highlight">Python/FastAPI</span> REST API with a clinical decision engine combining rule-based safety screening and LLM-powered analysis achieving 92% accuracy</li>
+                    <li>Implemented batch processing, multi-LLM support (OpenAI GPT-4, Anthropic Claude), and JWT role-based access control for HIPAA compliance</li>
+                    <li>Provisioned full AWS infrastructure using <span class="highlight">Terraform</span> (VPC, EC2, S3, IAM, CloudWatch); ~1,500 LOC app + ~400 LOC IaC</li>
                 </ul>
             </div>
 
@@ -360,10 +369,9 @@
                     <span class="proj-tech">Java 17, Spring Boot 3, React, PostgreSQL, Docker, GitHub Actions</span>
                 </div>
                 <ul class="bullet-list">
-                    <li>Developed 4 production-ready applications (E-Commerce, Food Ordering, Event Booking, Job Portal) following clean architecture principles</li>
-                    <li>Applied SOLID principles, design patterns (DTO, Repository, Factory), and comprehensive test coverage with JUnit 5 and MockMvc</li>
-                    <li>Implemented JWT authentication with role-based access control across all four applications for enterprise-grade security</li>
-                    <li>Configured CI/CD pipelines with GitHub Actions and Docker for automated testing, building, and deployment</li>
+                    <li>Developed 4 production-ready applications (E-Commerce, Food Ordering, Event Booking, Job Portal) following clean architecture and SOLID principles</li>
+                    <li>Implemented JWT authentication, RBAC, design patterns (DTO, Repository, Factory), and comprehensive testing with JUnit 5 and MockMvc</li>
+                    <li>Configured CI/CD pipelines with GitHub Actions and Docker for automated testing, building, and deployment across all services</li>
                 </ul>
             </div>
         </section>
@@ -374,7 +382,7 @@
             <table class="skills-table">
                 <tr>
                     <td class="s-label">Languages</td>
-                    <td class="s-value">Java 17, Python 3, JavaScript (ES6+), TypeScript, SQL</td>
+                    <td class="s-value">Java 17, Python 3, TypeScript, JavaScript (ES6+), SQL</td>
                 </tr>
                 <tr>
                     <td class="s-label">Java Ecosystem</td>
@@ -390,11 +398,11 @@
                 </tr>
                 <tr>
                     <td class="s-label">AWS & Cloud</td>
-                    <td class="s-value">EC2, ECS, Lambda, S3, RDS, CloudWatch, IAM, VPC, CodeDeploy, Terraform</td>
+                    <td class="s-value">Lambda, Step Functions, API Gateway, DynamoDB, EC2, ECS, S3, RDS, CloudWatch, IAM, Terraform</td>
                 </tr>
                 <tr>
                     <td class="s-label">Databases</td>
-                    <td class="s-value">PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch</td>
+                    <td class="s-value">PostgreSQL, MongoDB, MySQL, DynamoDB, Redis, Elasticsearch</td>
                 </tr>
                 <tr>
                     <td class="s-label">DevOps & Tools</td>
@@ -402,7 +410,7 @@
                 </tr>
                 <tr>
                     <td class="s-label">Practices</td>
-                    <td class="s-value">Microservices, System Design, TDD, Agile/Scrum, JIRA, SOLID Principles</td>
+                    <td class="s-value">Serverless Architecture, Microservices, System Design, TDD, Agile/Scrum, SOLID Principles</td>
                 </tr>
             </table>
         </section>
